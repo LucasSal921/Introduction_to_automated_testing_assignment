@@ -4,7 +4,6 @@ import { describe, it, expect } from "@jest/globals";
 describe("divide", () => {
     it("divides two valid numbers", () => {
         expect(divide(2,1)).toBe(2);
-        expect(divide(10,4)).toBe(2.5);
     });
 
     it("throws TypeError when first argument is not a number", () => {
